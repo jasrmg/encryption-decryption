@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta viewport="width=device-width, initial-scale=1.0" />
+    <title>Hash and Smash | Encrypt / Decrypt</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <span class="logo">Hash and Smash</span>
+      <ul>
+        <li><a href="#">Encrypt / Decrypt</a></li>
+        <li><a href="#what-is-encryption">What is Encryption</a></li>
+        <li><a href="#what-is-decryption">What is Decryption</a></li>
+        <li><a href="#discussion-board">Discussion Board</a></li>
+      </ul>
+    </nav>
+    <!-- <h1>Encrypt / Decrypt</h1> -->
+    <section class="main-container container" id="encrypt-decrypt">
+      <div class="option-text">Select an option:</div>
+      <div class="button-group">
+        <button class="encrypt btn">Encrypt</button>
+        <button class="decrypt btn">Decrypt</button>
+      </div>
+    </section>
+    <section class="encryption-container container" id="what-is-encryption">
+      <span class="header">What is Encryption?</span>
+      <iframe
+        src="https://www.youtube.com/embed/TImdsUglGv4?"
+        width="600"
+        height="400"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section class="encryption-container container" id="what-is-decryption">
+      <span class="header">What is Decryption?</span>
+      <iframe
+        src="https://www.youtube.com/embed/hdapCrcBo54"
+        width="600"
+        height="400"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section class="discussion-board container" id="discussion-board">
+      <span class="header">Discussion Board</span>
+      <div class="discussion-questions">
+        <div class="question-card active" data-id="1">
+          <span class="question">Why is encryption important?</span>
+          <span class="subtitle">Value and usage of encryption</span>
+        </div>
+        <div class="question-card" data-id="2">
+          <span class="question">Can encryption be misused?</span>
+          <span class="subtitle">Scenarios and examples</span>
+        </div>
+        <div class="question-card" data-id="3">
+          <span class="question">Ethical concerns about encryption</span>
+          <span class="subtitle">Value and usage of encryption</span>
+        </div>
+      </div>
+      <div class="answers-box">
+        <div class="question q1">
+          <p class="answer">
+            Encryption is essential for safeguarding digital information from
+            unauthorized access. It plays a crucial role in various aspects of
+            cybersecurity and data protection.
+          </p>
+          <p class="bold importance">Importance and Usage of Encryption</p>
+          <ol>
+            <li>
+              <span class="bold">Data Protection: </span>Encryption ensures that
+              personal and organizational data remains confidential, preventing
+              unauthorized access.
+            </li>
+            <li>
+              <span class="bold">Secure Communication: </span>By encrypting
+              messages and calls, individuals and businesses can communicate
+              without the risk of interception. This is especially important for
+              journalists, activists, and professionals handling confidential
+              information.
+            </li>
+            <li>
+              <span class="bold">Compliance and Trust: </span>Many industries
+              are required by law to protect customer data. Encryption helps
+              organizations comply with regulations like GDPR and HIPAA, thereby
+              maintaining trust and avoiding legal penalties.
+            </li>
+          </ol>
+        </div>
+
+        <div class="question q2">
+          <p class="answer">
+            Encryption is a powerful tool for protecting data, but like any
+            technology, it can be misused. Below are some real-world scenarios
+            illustrating how encryption can be exploited for unethical or
+            illegal purposes.
+          </p>
+          <ol>
+            <li>
+              <span class="bold">Criminal Activities & The Dark Web: </span>
+              Criminals often exploit encryption to carry out illicit activities
+              while evading law enforcement. The dark web, which is accessible
+              only through encrypted networks like Tor, is a well-known hub for
+              illegal transactions, including drug sales, human trafficking, and
+              cybercrime. Encrypted messaging apps such as Signal and Telegram
+              are sometimes used by criminals to communicate securely without
+              the risk of being intercepted.
+              <span class="example">
+                Example: In 2020, the FBI and European law enforcement agencies
+                infiltrated EncroChat, an encrypted messaging service widely
+                used by organized crime groups. The operation led to thousands
+                of arrests, highlighting how encryption can serve both as a
+                shield for criminals and a challenge for law enforcement.
+              </span>
+            </li>
+            <li>
+              <span class="bold">Terrorism & National Security Risks: </span>
+              Terrorist organizations use encryption to plan and coordinate
+              attacks without being detected. Encrypted communications make it
+              difficult for intelligence agencies to track their activities,
+              raising national security concerns. Governments have repeatedly
+              pushed for "backdoors" in encryption, which would allow
+              authorities to access encrypted communications when needed.
+              <span class="example">
+                Example: The 2015 Paris terrorist attacks were partly
+                coordinated using encrypted apps, making it difficult for
+                intelligence agencies to prevent the attack. The incident
+                sparked a global debate on whether tech companies should provide
+                law enforcement with access to encrypted messages.
+              </span>
+            </li>
+            <li>
+              <span class="bold">Ransomware & Cyber Extortion: </span>
+              Hackers use encryption to lock victims' data and demand ransom
+              payments. Ransomware attacks have become a growing concern for
+              businesses, hospitals, and government institutions, as encrypted
+              files become inaccessible until a ransom is paid. The use of
+              cryptocurrency, which is also encrypted, further complicates
+              tracking these cybercriminals.
+              <span class="example">
+                Example: In 2021, the Colonial Pipeline ransomware attack led to
+                fuel shortages in the U.S. Hackers encrypted the company’s data
+                and demanded a ransom of $4.4 million in Bitcoin, which was
+                eventually recovered by the FBI.
+              </span>
+            </li>
+          </ol>
+        </div>
+        <div class="question q3">
+          <p class="answer">
+            Encryption is at the heart of a major ethical debate, how do we
+            balance security and privacy with the need for law enforcement to
+            access crucial data? While encryption protects individuals,
+            businesses, and governments from cyber threats, it also raises
+            concerns about misuse, regulation, and the potential impact on human
+            rights. Here are some of the key ethical dilemmas surrounding
+            encryption:
+          </p>
+          <ol>
+            <li>
+              <p class="bold martop marbot">
+                Government Access vs. Individual Privacy:
+              </p>
+              Governments worldwide argue that encryption limits their ability
+              to fight crime and terrorism. Intelligence agencies claim that
+              criminals and terrorist organizations exploit encrypted
+              communication channels to evade detection. To counter this, some
+              governments propose encryption backdoors, a mechanism allowing
+              authorities to decrypt data when necessary.
+              <p class="bold ethical-dilemma">The Ethical Dilemma:</p>
+              <div class="bold">
+                Should governments have the power to bypass encryption for
+                national security reasons, even if it compromises the privacy of
+                all users?
+              </div>
+              <div class="dot">
+                -If backdoors exist, they could be exploited not only by law
+                enforcement but also by hackers, foreign governments, and
+                cybercriminals.
+              </div>
+              <p class="bold">Real-World Example:</p>
+              <div class="dot">
+                -The UK government has proposed laws requiring tech companies to
+                provide access to encrypted messages for security reasons.
+                However, privacy advocates warn that such measures could weaken
+                global cybersecurity.
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!--modal-->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close">&times;</span>
+        <h2 id="modal-title" class="modal-title">Encrypt</h2>
+        <textarea
+          id="input-text"
+          class="input-box"
+          placeholder="Enter text to Encrypt. . ."
+          rows="1"
+        ></textarea>
+        <input
+          type="number"
+          id="shift"
+          class="shift"
+          placeholder="Enter shift value: "
+        />
+        <div class="output-container" id="output-result">output goes here</div>
+        <button class="process" id="process">Process</button>
+      </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>About</h3>
+          <p>
+            Hash and Smash is a platform for encryption and decryption
+            information, featuring a demo of how encryption works.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Encrypt / Decrypt</a></li>
+            <li><a href="#what-is-encryption">What is Encryption?</a></li>
+            <li><a href="#what-is-decryption">What is Decryption?</a></li>
+            <li><a href="#discussion-board">Discussion Board</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <ul class="socials">
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-github"></i> GitHub</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-discord"></i> Discord</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Sources</h3>
+          <p>
+            <a
+              href="https://www.eff.org/document/benefits-encryption"
+              target="_blank"
+              >1. Why is encryption important</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://www.europol.europa.eu/media-press/newsroom/news/dismantling-encrypted-criminal-encrochat-communications-leads-to-over-6-500-arrests-and-close-to-eur-900-million-seized"
+              target="_blank"
+              >2. Can encrpytion be misused</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://edition.cnn.com/2015/12/17/politics/paris-attacks-terrorists-encryption/index.html"
+              target="_blank"
+              >2. Can encrpytion be misused(2)</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://www.theguardian.com/technology/2021/may/13/colonial-pipeline-ransomware-attack-cyber-crime"
+              target="_blank"
+              >2. Can encrpytion be misused(3)</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://www.thetimes.com/uk/law/article/a-back-door-to-encrypted-data-could-help-to-protect-the-public-pp69dqr76?region=global"
+              target="_blank"
+              >3. Ethical concerns about encryption</a
+            >
+          </p>
+        </div>
+      </div>
+      <p class="footer-bottom">© 2025 Hash and Smash: Sarmago & Caol-Olan</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="discussionBoard.js"></script>
+  </body>
+</html>
