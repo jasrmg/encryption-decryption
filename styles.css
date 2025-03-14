@@ -182,6 +182,10 @@ input[type="number"]::-webkit-outer-spin-button {
   cursor: pointer;
   color: var(--error-color);
 }
+.close:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-out;
+}
 button.process {
   padding: 10px;
   background-color: var(--secondary-color);
